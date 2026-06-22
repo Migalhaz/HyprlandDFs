@@ -13,7 +13,7 @@ hl.bind(defs.mainMod .. " + SHIFT + B", function()
 end)
 hl.bind(defs.mainMod .. " + ESCAPE", hl.dsp.exec_cmd("pkill -x rofi || " .. defs.scripts .. "/power.sh"))
 hl.bind(defs.mainMod .. " + E", hl.dsp.exec_cmd(defs.fileManager))
-hl.bind(defs.mainMod .. " + M", hl.dsp.exec_cmd(defs.term .. " -o confirm_os_window_close=0 qalc", { float=true, center=true, size="700 400"}))
+hl.bind(defs.mainMod .. " + M", hl.dsp.exec_cmd(defs.term .. " -o confirm_os_window_close=0 qalc", { float=true, center=true, size="300 400"}))
 
 hl.bind(defs.mainMod .. " + V", hl.dsp.window.float())
 hl.bind(defs.mainMod .. " + F", hl.dsp.window.fullscreen())
